@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function lighton()
+        {
+            document.getElementById('image').src ="bulb.jpg";
+
+        }
+        function lightoff()
+        {
+            document.getElementById('image').src ="off.jpeg";
+
+        }
+        
+        </script>
+
+</head>
+<body>
+  <img id="image" onmousedown="lighton()" onmouseup="lightoff()" src="off.jpeg" width="300" height="400"/>
+  <p> for result click on bulb</p>
+
+    
+</body>
+</html>
+
